@@ -49,7 +49,7 @@ function Home(props) {
             ))}
           </div>
           <div className="flex justify-center items-center">
-            <ButtonPrimary label="next" onClick={() => fetchData()} />
+            <ButtonPrimary label="next" onNavigate={() => fetchData()} />
           </div>
         </div>
       </div>
